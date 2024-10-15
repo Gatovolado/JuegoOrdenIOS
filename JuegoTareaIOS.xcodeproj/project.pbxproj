@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1AEBEDA62CBE6EA400BC1242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AEBED872CBE6EA200BC1242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AEBED8E2CBE6EA200BC1242;
+			remoteInfo = JuegoTareaIOS;
+		};
+		1AEBEDB02CBE6EA400BC1242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AEBED872CBE6EA200BC1242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AEBED8E2CBE6EA200BC1242;
+			remoteInfo = JuegoTareaIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AEBED8F2CBE6EA200BC1242 /* JuegoTareaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuegoTareaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEBEDA52CBE6EA400BC1242 /* JuegoTareaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuegoTareaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEBEDAF2CBE6EA400BC1242 /* JuegoTareaIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuegoTareaIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1AEBEDB72CBE6EA400BC1242 /* Exceptions for "JuegoTareaIOS" folder in "JuegoTareaIOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1AEBED8E2CBE6EA200BC1242 /* JuegoTareaIOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1AEBED912CBE6EA200BC1242 /* JuegoTareaIOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1AEBEDB72CBE6EA400BC1242 /* Exceptions for "JuegoTareaIOS" folder in "JuegoTareaIOS" target */,
+			);
+			path = JuegoTareaIOS;
+			sourceTree = "<group>";
+		};
+		1AEBEDA82CBE6EA400BC1242 /* JuegoTareaIOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JuegoTareaIOSTests;
+			sourceTree = "<group>";
+		};
+		1AEBEDB22CBE6EA400BC1242 /* JuegoTareaIOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JuegoTareaIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AEBED8C2CBE6EA200BC1242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEBEDA22CBE6EA400BC1242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEBEDAC2CBE6EA400BC1242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEBED862CBE6EA200BC1242 = {
+			isa = PBXGroup;
+			children = (
+				1AEBED912CBE6EA200BC1242 /* JuegoTareaIOS */,
+				1AEBEDA82CBE6EA400BC1242 /* JuegoTareaIOSTests */,
+				1AEBEDB22CBE6EA400BC1242 /* JuegoTareaIOSUITests */,
+				1AEBED902CBE6EA200BC1242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEBED902CBE6EA200BC1242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AEBED8F2CBE6EA200BC1242 /* JuegoTareaIOS.app */,
+				1AEBEDA52CBE6EA400BC1242 /* JuegoTareaIOSTests.xctest */,
+				1AEBEDAF2CBE6EA400BC1242 /* JuegoTareaIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AEBED8E2CBE6EA200BC1242 /* JuegoTareaIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEBEDB82CBE6EA400BC1242 /* Build configuration list for PBXNativeTarget "JuegoTareaIOS" */;
+			buildPhases = (
+				1AEBED8B2CBE6EA200BC1242 /* Sources */,
+				1AEBED8C2CBE6EA200BC1242 /* Frameworks */,
+				1AEBED8D2CBE6EA200BC1242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1AEBED912CBE6EA200BC1242 /* JuegoTareaIOS */,
+			);
+			name = JuegoTareaIOS;
+			packageProductDependencies = (
+			);
+			productName = JuegoTareaIOS;
+			productReference = 1AEBED8F2CBE6EA200BC1242 /* JuegoTareaIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AEBEDA42CBE6EA400BC1242 /* JuegoTareaIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEBEDBD2CBE6EA400BC1242 /* Build configuration list for PBXNativeTarget "JuegoTareaIOSTests" */;
+			buildPhases = (
+				1AEBEDA12CBE6EA400BC1242 /* Sources */,
+				1AEBEDA22CBE6EA400BC1242 /* Frameworks */,
+				1AEBEDA32CBE6EA400BC1242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEBEDA72CBE6EA400BC1242 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AEBEDA82CBE6EA400BC1242 /* JuegoTareaIOSTests */,
+			);
+			name = JuegoTareaIOSTests;
+			packageProductDependencies = (
+			);
+			productName = JuegoTareaIOSTests;
+			productReference = 1AEBEDA52CBE6EA400BC1242 /* JuegoTareaIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AEBEDAE2CBE6EA400BC1242 /* JuegoTareaIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEBEDC02CBE6EA400BC1242 /* Build configuration list for PBXNativeTarget "JuegoTareaIOSUITests" */;
+			buildPhases = (
+				1AEBEDAB2CBE6EA400BC1242 /* Sources */,
+				1AEBEDAC2CBE6EA400BC1242 /* Frameworks */,
+				1AEBEDAD2CBE6EA400BC1242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEBEDB12CBE6EA400BC1242 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AEBEDB22CBE6EA400BC1242 /* JuegoTareaIOSUITests */,
+			);
+			name = JuegoTareaIOSUITests;
+			packageProductDependencies = (
+			);
+			productName = JuegoTareaIOSUITests;
+			productReference = 1AEBEDAF2CBE6EA400BC1242 /* JuegoTareaIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AEBED872CBE6EA200BC1242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1AEBED8E2CBE6EA200BC1242 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1AEBEDA42CBE6EA400BC1242 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1AEBED8E2CBE6EA200BC1242;
+					};
+					1AEBEDAE2CBE6EA400BC1242 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1AEBED8E2CBE6EA200BC1242;
+					};
+				};
+			};
+			buildConfigurationList = 1AEBED8A2CBE6EA200BC1242 /* Build configuration list for PBXProject "JuegoTareaIOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AEBED862CBE6EA200BC1242;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1AEBED902CBE6EA200BC1242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AEBED8E2CBE6EA200BC1242 /* JuegoTareaIOS */,
+				1AEBEDA42CBE6EA400BC1242 /* JuegoTareaIOSTests */,
+				1AEBEDAE2CBE6EA400BC1242 /* JuegoTareaIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AEBED8D2CBE6EA200BC1242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEBEDA32CBE6EA400BC1242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEBEDAD2CBE6EA400BC1242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AEBED8B2CBE6EA200BC1242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEBEDA12CBE6EA400BC1242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEBEDAB2CBE6EA400BC1242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AEBEDA72CBE6EA400BC1242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AEBED8E2CBE6EA200BC1242 /* JuegoTareaIOS */;
+			targetProxy = 1AEBEDA62CBE6EA400BC1242 /* PBXContainerItemProxy */;
+		};
+		1AEBEDB12CBE6EA400BC1242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AEBED8E2CBE6EA200BC1242 /* JuegoTareaIOS */;
+			targetProxy = 1AEBEDB02CBE6EA400BC1242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AEBEDB92CBE6EA400BC1242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JuegoTareaIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = csg.JuegoTareaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AEBEDBA2CBE6EA400BC1242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JuegoTareaIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = csg.JuegoTareaIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AEBEDBB2CBE6EA400BC1242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AEBEDBC2CBE6EA400BC1242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AEBEDBE2CBE6EA400BC1242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = csg.JuegoTareaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuegoTareaIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JuegoTareaIOS";
+			};
+			name = Debug;
+		};
+		1AEBEDBF2CBE6EA400BC1242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = csg.JuegoTareaIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuegoTareaIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JuegoTareaIOS";
+			};
+			name = Release;
+		};
+		1AEBEDC12CBE6EA400BC1242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = csg.JuegoTareaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JuegoTareaIOS;
+			};
+			name = Debug;
+		};
+		1AEBEDC22CBE6EA400BC1242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = csg.JuegoTareaIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JuegoTareaIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEBED8A2CBE6EA200BC1242 /* Build configuration list for PBXProject "JuegoTareaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEBEDBB2CBE6EA400BC1242 /* Debug */,
+				1AEBEDBC2CBE6EA400BC1242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEBEDB82CBE6EA400BC1242 /* Build configuration list for PBXNativeTarget "JuegoTareaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEBEDB92CBE6EA400BC1242 /* Debug */,
+				1AEBEDBA2CBE6EA400BC1242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEBEDBD2CBE6EA400BC1242 /* Build configuration list for PBXNativeTarget "JuegoTareaIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEBEDBE2CBE6EA400BC1242 /* Debug */,
+				1AEBEDBF2CBE6EA400BC1242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEBEDC02CBE6EA400BC1242 /* Build configuration list for PBXNativeTarget "JuegoTareaIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEBEDC12CBE6EA400BC1242 /* Debug */,
+				1AEBEDC22CBE6EA400BC1242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AEBED872CBE6EA200BC1242 /* Project object */;
+}
