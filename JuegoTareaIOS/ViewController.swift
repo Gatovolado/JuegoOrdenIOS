@@ -18,14 +18,19 @@ class ViewController: UIViewController {
         var imagenesCopia = Array(imagenes)
         var imagenesPartida = [UIImage]()
         for _ in imagenes{
-            var numRandom = Int.random(in: 0..<(imagenesCopia.count))
+            let numRandom = Int.random(in: 0..<(imagenesCopia.count))
             imagenesPartida.append(imagenesCopia[numRandom]!)
             imagenesCopia.remove(at: numRandom)
         }
         var indexImagenes = 0
+        
         Timer.scheduledTimer(withTimeInterval: 2, repeats: true) { (timer) in
             self.imagenCambiante.image = imagenesPartida[indexImagenes]
             indexImagenes = indexImagenes + 1
+            print(indexImagenes)
+            if indexImagenes == imagenesPartida.count{
+                timer.invalidate()
+            }
         }
     }
     
